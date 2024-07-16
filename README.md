@@ -3,9 +3,12 @@ Blazor Component for collections to Fade In and Out using Blazor and some javasc
 
 Sample on Blazorfiddle: https://blazorfiddle.com/s/wvjwyha1
 
+For Blazor 8, the page must be InteractiveServer or InteractiveWebAssembly
+
 Usage:
 ```html
-<CollectionFadeInOut Items="$Collection or List$" Context="$name of your contect items$"
+<CollectionFadeInOut  
+    Items="$Collection or List$" Context="$name of your contect items$"
     OnShowedAllItems="$optional method to call once all the collection items have been faded in and out$"
     ViewableSeconds=$optional value for the display duration in seconds for each item, default is 5 (seconds) $>
     <ItemTemplate>
