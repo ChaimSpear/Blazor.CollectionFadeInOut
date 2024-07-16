@@ -16,3 +16,6 @@ Usage:
     </ItemTemplate>
 </CollectionFadeInOut>
 ```
+For example if you have a collection of circles, like in the image below, and you want to display each circle (component) one at a time (fading in and out), 
+You can use the CollectionFadeInOut component wrapper around the collection so that the page shows 1 circle at a time, as shown in the subsequent images below.
+![alt text](RoundDotsAll.jpg)
