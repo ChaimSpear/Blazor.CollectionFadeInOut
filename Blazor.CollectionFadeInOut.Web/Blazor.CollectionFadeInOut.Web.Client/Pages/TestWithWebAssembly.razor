@@ -1,11 +1,13 @@
 ﻿@page "/TestWithWebAssembly"
 @rendermode RenderMode.InteractiveWebAssembly
-<h1>Collection Fade In Out Example Web Assembly</h1>
+<h4>Collection Fade In Out Example Web Assembly, with 2 second fade in out instead of the default 5</h4>
 
 <br>
 <br>
 
-<CollectionFadeInOut @rendermode="InteractiveWebAssembly" Items="_myListString" Context="myStrItem" OnShowedAllItems="ShowDone">
+<CollectionFadeInOut @rendermode="InteractiveWebAssembly" Items="_myListString" 
+    Context="myStrItem" OnShowedAllItems="ShowDone"
+ViewableSeconds=2>
     <ItemTemplate >
         <div class="red-large-font">The Current Item is: @myStrItem</div>
     </ItemTemplate>
