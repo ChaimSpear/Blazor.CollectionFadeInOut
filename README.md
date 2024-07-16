@@ -22,6 +22,9 @@ You can use the CollectionFadeInOut component wrapper around the collection so t
 
 using the CollectionFadeInOut component wrapper would have the page showing as below, with each circle fading in and out.
 ![alt text](RoundDots1.jpg)
+
 ![alt text](RoundDots2.jpg)
+
 ![alt text](RoundDots3.jpg)
+
 ![alt text](RoundDots4.jpg)
