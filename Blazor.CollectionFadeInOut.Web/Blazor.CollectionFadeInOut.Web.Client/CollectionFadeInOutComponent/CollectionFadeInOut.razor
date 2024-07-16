@@ -1,0 +1,99 @@
+﻿@typeparam TItem
+
+@if (Items.Count == _itemWarapperList.Count)
+{
+    @foreach (var itemWarapper in _itemWarapperList)
+    {
+        @if (itemWarapper.IsVisible)
+        {
+            <div class="@itemWarapper.CssClass">
+                @ItemTemplate(itemWarapper.TheItem)
+            </div>
+        }
+    }
+}
+
+@code {
+    public class ItemWarapper
+    {
+        public TItem TheItem { get; set; }
+        public bool IsVisible { get; set; } = false;
+        public string CssClass { get; set; } = string.Empty;
+    }
+    @inject NavigationManager NavigationManager
+    [Parameter, EditorRequired]
+    public RenderFragment<TItem> ItemTemplate { get; set; } = default!;
+
+    [Parameter, EditorRequired]
+    public IReadOnlyList<TItem> Items { get; set; } = default!;
+
+    [Parameter]
+    public int ViewableSeconds { get; set; } = 5;
+
+    [Parameter]
+    public EventCallback OnShowedAllItems { get; set; }
+
+    readonly CancellationTokenSource _tokenSource = new CancellationTokenSource();
+
+    List<ItemWarapper> _itemWarapperList = new List<ItemWarapper>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        NavigationManager.LocationChanged += (_, _) => _tokenSource.Cancel();
+        foreach (var theItem in Items)
+        {
+            _itemWarapperList.Add(
+            new ItemWarapper { TheItem = theItem }
+            );
+        }
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            foreach (var itemWarapper in _itemWarapperList)
+            {
+                if (_tokenSource.IsCancellationRequested)
+                {
+                    return;
+                }
+                await FadeInOut(itemWarapper);
+            }
+
+            if (_tokenSource.IsCancellationRequested)
+            {
+                return;
+            }
+
+            if (OnShowedAllItems.HasDelegate)
+            {
+                await OnShowedAllItems.InvokeAsync();
+            }
+        }
+    }
+
+    private async Task FadeIn(ItemWarapper theItemWarapper)
+    {
+        theItemWarapper.IsVisible = true;
+        theItemWarapper.CssClass = "item-visible";
+        StateHasChanged();
+    }
+
+    private async Task FadeOut(ItemWarapper theItemWarapper)
+    {
+        theItemWarapper.CssClass = "item-hidden";
+        StateHasChanged();
+        await Task.Delay(2000);
+        theItemWarapper.IsVisible = false;
+        StateHasChanged();
+    }
+
+    public async Task FadeInOut(ItemWarapper theItemWarapper)
+    {
+        await FadeIn(theItemWarapper);
+        await Task.Delay(ViewableSeconds * 1000);
+        StateHasChanged();
+        await FadeOut(theItemWarapper);
+    }
+}

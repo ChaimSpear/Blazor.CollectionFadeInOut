@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\development\\Blazor8\\Blazor.CollectionFadeInOut\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{91220FD8-D623-42FD-929B-3D861578D13F}|Blazor.CollectionFadeInOut.Web\\Blazor.CollectionFadeInOut.Web\\Blazor.CollectionFadeInOut.Web.csproj|c:\\development\\blazor8\\blazor.collectionfadeinout\\blazor.collectionfadeinout.web\\blazor.collectionfadeinout.web\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91220FD8-D623-42FD-929B-3D861578D13F}|Blazor.CollectionFadeInOut.Web\\Blazor.CollectionFadeInOut.Web\\Blazor.CollectionFadeInOut.Web.csproj|solutionrelative:blazor.collectionfadeinout.web\\blazor.collectionfadeinout.web\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F69E6243-297C-487C-81B7-D6048507EE2A}|Blazor.CollectionFadeInOut.Web\\Blazor.CollectionFadeInOut.Web.Client\\Blazor.CollectionFadeInOut.Web.Client.csproj|c:\\development\\blazor8\\blazor.collectionfadeinout\\blazor.collectionfadeinout.web\\blazor.collectionfadeinout.web.client\\collectionfadeinoutcomponent\\collectionfadeinout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F69E6243-297C-487C-81B7-D6048507EE2A}|Blazor.CollectionFadeInOut.Web\\Blazor.CollectionFadeInOut.Web.Client\\Blazor.CollectionFadeInOut.Web.Client.csproj|solutionrelative:blazor.collectionfadeinout.web\\blazor.collectionfadeinout.web.client\\collectionfadeinoutcomponent\\collectionfadeinout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CollectionFadeInOut.razor",
+              "DocumentMoniker": "C:\\development\\Blazor8\\Blazor.CollectionFadeInOut\\Blazor.CollectionFadeInOut.Web\\Blazor.CollectionFadeInOut.Web.Client\\CollectionFadeInOutComponent\\CollectionFadeInOut.razor",
+              "RelativeDocumentMoniker": "Blazor.CollectionFadeInOut.Web\\Blazor.CollectionFadeInOut.Web.Client\\CollectionFadeInOutComponent\\CollectionFadeInOut.razor",
+              "ToolTip": "C:\\development\\Blazor8\\Blazor.CollectionFadeInOut\\Blazor.CollectionFadeInOut.Web\\Blazor.CollectionFadeInOut.Web.Client\\CollectionFadeInOutComponent\\CollectionFadeInOut.razor",
+              "RelativeToolTip": "Blazor.CollectionFadeInOut.Web\\Blazor.CollectionFadeInOut.Web.Client\\CollectionFadeInOutComponent\\CollectionFadeInOut.razor",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-16T17:13:11.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\development\\Blazor8\\Blazor.CollectionFadeInOut\\Blazor.CollectionFadeInOut.Web\\Blazor.CollectionFadeInOut.Web\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Blazor.CollectionFadeInOut.Web\\Blazor.CollectionFadeInOut.Web\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\development\\Blazor8\\Blazor.CollectionFadeInOut\\Blazor.CollectionFadeInOut.Web\\Blazor.CollectionFadeInOut.Web\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Blazor.CollectionFadeInOut.Web\\Blazor.CollectionFadeInOut.Web\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-16T17:10:56.632Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

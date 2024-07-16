@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\development\\blazor8\\Blazor.CollectionFadeInOut\\Blazor.CollectionFadeInOut.Web\\Blazor.CollectionFadeInOut.Web.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\development\\blazor8\\Blazor.CollectionFadeInOut\\Blazor.CollectionFadeInOut.Web\\Blazor.CollectionFadeInOut.Web.Client\\obj\\Debug\\net8.0\\compressed\\dwi9avz303.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\development\\blazor8\\Blazor.CollectionFadeInOut\\Blazor.CollectionFadeInOut.Web\\Blazor.CollectionFadeInOut.Web.Client\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Blazor.CollectionFadeInOut.Web.Client.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Blazor.CollectionFadeInOut.Web.Client.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\development\\blazor8\\Blazor.CollectionFadeInOut\\Blazor.CollectionFadeInOut.Web\\Blazor.CollectionFadeInOut.Web.Client\\wwwroot\\appsettings.Development.json",
+      "PackagePath": "staticwebassets\\appsettings.Development.json"
+    },
+    {
+      "Id": "C:\\development\\blazor8\\Blazor.CollectionFadeInOut\\Blazor.CollectionFadeInOut.Web\\Blazor.CollectionFadeInOut.Web.Client\\wwwroot\\appsettings.json",
+      "PackagePath": "staticwebassets\\appsettings.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Blazor.CollectionFadeInOut.Web.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Blazor.CollectionFadeInOut.Web.Client.props",
+      "PackagePath": "build\\Blazor.CollectionFadeInOut.Web.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Blazor.CollectionFadeInOut.Web.Client.props",
+      "PackagePath": "buildMultiTargeting\\Blazor.CollectionFadeInOut.Web.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Blazor.CollectionFadeInOut.Web.Client.props",
+      "PackagePath": "buildTransitive\\Blazor.CollectionFadeInOut.Web.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Blazor.CollectionFadeInOut.Web.Client.props" />
+</Project>

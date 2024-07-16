@@ -1,0 +1,31 @@
+﻿@page "/" 
+@rendermode RenderMode.InteractiveServer
+<h1>Collection Fade In Out Example Server Side</h1>
+
+
+<br>
+<br>
+
+<CollectionFadeInOut @rendermode="InteractiveServer" Items="_myListString" Context="myStrItem" OnShowedAllItems="ShowDone">
+    <ItemTemplate >
+        <div class="red-large-font">The Current Item is: @myStrItem</div>
+    </ItemTemplate>
+</CollectionFadeInOut>
+
+@if (isDone)
+{
+    <div class="blue-large-font">
+        All items were shown!
+    </div>
+}
+@code
+{
+    bool isDone = false;
+    List<string> _myListString = new List<string> { "Lion", "Tiger", "Cheetah", "Leopard", "Serval", "Ocelot" };
+
+    async Task ShowDone()
+    {
+        isDone = true;
+    }
+}
+
