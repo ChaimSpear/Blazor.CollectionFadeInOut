@@ -1,0 +1,15 @@
+*.dll
+*.cache
+bin
+obj
+packages
+
+.vs/
+bin/
+obj/
+*.user
+artifacts/
+.vscode/
+.dotnet/
+*.binlog
+*.dll
