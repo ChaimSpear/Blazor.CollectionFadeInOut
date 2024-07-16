@@ -19,3 +19,9 @@ Usage:
 For example if you have a collection of circles, like in the image below, and you want to display each circle (component) one at a time (fading in and out), 
 You can use the CollectionFadeInOut component wrapper around the collection so that the page shows 1 circle at a time, as shown in the subsequent images below.
 ![alt text](RoundDotsAll.jpg)
+
+using the CollectionFadeInOut component wrapper would have the page showing as below, with each circle fading in and out.
+![alt text](RoundDots1.jpg)
+![alt text](RoundDots2.jpg)
+![alt text](RoundDots3.jpg)
+![alt text](RoundDots4.jpg)
