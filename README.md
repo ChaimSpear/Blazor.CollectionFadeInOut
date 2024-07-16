@@ -1,7 +1,7 @@
 # Blazor Collection Fade In Out
 Blazor Component for collections to Fade In and Out using Blazor and some javascript
 
-[CollectionFadeInOut](Blazor.CollectionFadeInOut.Web/Blazor.CollectionFadeInOut.Web.Client/CollectionFadeInOutComponent)
+[CollectionFadeInOut Code](Blazor.CollectionFadeInOut.Web/Blazor.CollectionFadeInOut.Web.Client/CollectionFadeInOutComponent)
 
 I may look into making this component available on NuGet.
 
