@@ -25,6 +25,6 @@ using the CollectionFadeInOut component wrapper would have the page showing as b
 
 ![alt text](RoundDots2.jpg)
 
-  ![alt text](RoundDots3.jpg)
+![alt text](RoundDots3a.jpg)
 
-  ![alt text](RoundDots4.jpg)
+![alt text](RoundDots4a.jpg)
